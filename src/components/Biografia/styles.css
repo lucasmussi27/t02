@@ -1,0 +1,19 @@
+section#biografia {
+    background-image: url('../../images/bilhar.png');
+    background-size: cover;
+    color: white;
+}
+
+section#biografia ul li {
+    list-style: none;
+}
+
+.info-box {
+    margin: auto;
+    width: 60%;
+    background-image: url('../../images/papel.png');
+    box-sizing: border-box;
+    padding: .85rem;
+    font-family: 'Comic Sans Ms', sans-serif;
+    color: black;
+}

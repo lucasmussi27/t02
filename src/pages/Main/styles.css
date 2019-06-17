@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+}
+
+h1::after {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+    content: ' ';
+    border: 2px solid #ffffff;
+}
+
+section#portfolios h1::after {
+    border: 2px solid #000000;
+}
+
+.intro {
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 3.5rem;
+}
+
+.intro-txt {
+    margin: auto;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 3.5rem;
+}
+
+section {
+    padding: 3rem;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+}
+
+p {
+    font-size: 18px !important;
+}

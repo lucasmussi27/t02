@@ -1,0 +1,48 @@
+section#skills {
+    padding: 3rem;
+    padding-bottom: 5rem;
+    background: black;
+    color: white;
+}
+
+.skills-intro {
+    padding: 2rem;
+    margin: auto;
+}
+  
+.intro-txt {
+    width: 65%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+  
+.skills-list {
+    width: 75%;
+    margin: auto;
+}
+  
+.skills-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.skills-list ul li {
+    list-style: none;
+    margin: .5rem;
+    padding: .45rem;
+    background: rgba(145,145,145,.5);
+    transition: 1s;
+}
+  
+.skills-list ul li:hover {
+    background: grey;
+    color: black;
+    transition: 1s;
+}
+
+@media screen and (max-width: 700px) {
+    .skills-list {
+        min-width: 100%;
+    }
+}
